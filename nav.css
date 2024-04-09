@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(26px);
+    background-color: rgba(0, 0, 0, .2);
+    height: 88px;
+    font-family: nunito;
+    color:white;
+    font-size: 20px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 5;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 25%;
+    align-items: center;
+}
+
+.header{
+    color:white;
+    font-family: lora;
+    font-size: 32px;
+}
+
+.phone{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.callback p{
+    text-align: right;
+}
